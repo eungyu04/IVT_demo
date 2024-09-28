@@ -11,7 +11,7 @@ public class ItemPermanence {
 
     /*
 
-    공격속도, ~~등등 추가
+    공격속도, ~~등등 추가a
 
      */
 }
