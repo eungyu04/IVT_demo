@@ -24,11 +24,11 @@ jobs:
 
     - name: 🐳 gradlew 실행 권한 설정
       run: chmod +x gradlew
-      working-directory: ./Invaders-SDP-master
+      working-directory: ../../Invaders(2)/Invaders-SDP-master
  
     - name: 🐳 테스트 진행
       run: ./gradlew --info test
-      working-directory: ./Invaders-SDP-master
+      working-directory: ../../Invaders(2)/Invaders-SDP-master
       
     - name: 🐳 테스트 결과 Report
       uses: EnricoMi/publish-unit-test-result-action@v2
