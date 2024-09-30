@@ -19,7 +19,7 @@ public class ItemOnetime extends Entity {
     };
 
     /**
-     * Public constructor.
+     * Public constructor.aa
      */
     public ItemOnetime(final int positionX, final int positionY, final int speed) {
         super(positionX, positionY, 3 * 3, 3 * 3, Color.magenta);
